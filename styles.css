@@ -1,0 +1,176 @@
+body {
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center;
+    height: 100vh; */
+    /* background-image: url(./images/bcn.jpg); */
+    background-color: orange;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: black;
+}
+
+h2 {
+    color: black;
+    padding-left: 10px;
+    font-size: 1rem;
+}
+
+
+button {
+    width: 50px;
+    height: 25px;
+    padding: 0;
+    border: none;
+    background: none;
+    color: gray;
+    border-radius: 0;
+    margin-top: 0.5rem;
+}
+
+.headleft {
+    /* display: flex;
+    justify-content: left;
+    padding: 2rem; */
+    display: flex;
+    grid-gap: 10px;
+    justify-content: space-between;
+}
+
+.headmid {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 20rem;
+}
+
+.headright {
+    display: flex;
+    /* justify-content: right; */
+    grid-gap: 10px;
+} 
+
+
+#top {
+    display: flex;
+    justify-content: space-between;
+    height: 5vh;
+    color: white;
+    align-items: center;
+}
+.company-overview {
+    display: flex;
+    justify-content: start;
+    grid-gap: 10px;
+}
+
+.join-me {
+    display: flex;
+    justify-content: flex-end;
+    grid-gap: 10px;
+}
+
+.firstrow {
+    display: flex;
+    height: 5vh;
+    justify-content: space-between;
+    color: white;
+}
+
+.card {
+    box-sizing: border-box;
+    /* border: 2px solid gray; */
+    border-radius: 5px;
+    background-color: rgb(211, 205, 205);
+    color: black;
+}
+
+.cardhead {
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    width: 270px;
+}
+
+.cardbot {
+    /* display: flex;
+    justify-content: space-between;
+    height: 45px;
+    width: 270px;*/
+    padding-left: 5px; 
+
+    box-sizing: border-box;
+    /* border: 2px solid gray; */
+    /* border-radius: 5px; */
+    background-color: rgb(211, 205, 205);
+    color: gray;
+}
+
+.grid {
+    height: 90vh;
+    display: flex;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    flex: 0 0 270;
+    gap: 20px;
+}
+
+.small-card {
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: white;
+    padding: 5px;
+    margin: 5px;
+}
+
+.colorbox {
+    width: 40px;
+    height: 7px;
+    /* padding: ;  */
+    border-radius: 5px;
+}
+
+.colorgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 10px auto;
+}
+
+.nav-icon {
+    width: 10px;
+    height: 10px;
+}
+
+.person-img {
+    width: 30px;
+    height: 30px;
+}
+
+.imgflex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.iconleft {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.imgright {
+    display: flex;
+    justify-content: flex-end;   
+    align-items: center;
+}
+
+.olddate {
+    background-color: rgb(181, 106, 106);
+    padding: 2px;
+    margin: 2px;
+    border-radius: 2px;
+}
+
+.newdate {
+    padding: 5px;
+    margin: 2px;
+}
