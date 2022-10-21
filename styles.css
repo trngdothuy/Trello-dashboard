@@ -11,7 +11,7 @@ body {
     background-position: center;
     color: black;
     margin: 0 5px 5px 5px;
-    width: fit-content;
+    width: screen;
 }
 
 h2 {
@@ -36,15 +36,15 @@ img {
     margin: 2px;
 }
 
-.headleft {
+/* .headleft { */
     /* display: flex;
     justify-content: left;
     padding: 2rem; 
     display: flex;
     grid-gap: 10px;
     justify-content: space-between; */
-    float: left;
-}
+    /* float: left; */
+
 
 /* 
 .headmid {
