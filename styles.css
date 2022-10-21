@@ -10,6 +10,8 @@ body {
     background-attachment: fixed;
     background-position: center;
     color: black;
+    margin: 0 5px 5px 5px;
+    width: fit-content;
 }
 
 h2 {
@@ -30,15 +32,21 @@ button {
     margin-top: 0.5rem;
 }
 
+img {
+    margin: 2px;
+}
+
 .headleft {
     /* display: flex;
     justify-content: left;
-    padding: 2rem; */
+    padding: 2rem; 
     display: flex;
     grid-gap: 10px;
-    justify-content: space-between;
+    justify-content: space-between; */
+    float: left;
 }
 
+/* 
 .headmid {
     display: flex;
     justify-content: space-around;
@@ -47,23 +55,25 @@ button {
 
 .headright {
     display: flex;
-    /* justify-content: right; */
+    /* justify-content: right;
     grid-gap: 10px;
-} 
+}  */
 
 
 #top {
+    position: sticky;
     display: flex;
     justify-content: space-between;
     height: 5vh;
     color: white;
     align-items: center;
+    background-color: darkorange;
 }
-.company-overview {
+/* .company-overview {
     display: flex;
     justify-content: start;
     grid-gap: 10px;
-}
+} */
 
 .join-me {
     display: flex;
@@ -76,14 +86,14 @@ button {
     height: 5vh;
     justify-content: space-between;
     color: white;
+    align-items: center;
 }
 
 .card {
-    box-sizing: border-box;
-    /* border: 2px solid gray; */
-    border-radius: 5px;
     background-color: rgb(211, 205, 205);
-    color: black;
+    max-height: 670px;
+    align-items: start;
+    border-radius: 10px;
 }
 
 .cardhead {
@@ -94,25 +104,22 @@ button {
 }
 
 .cardbot {
-    /* display: flex;
-    justify-content: space-between;
-    height: 45px;
-    width: 270px;*/
     padding-left: 5px; 
-
     box-sizing: border-box;
-    /* border: 2px solid gray; */
-    /* border-radius: 5px; */
     background-color: rgb(211, 205, 205);
     color: gray;
 }
 
-.grid {
+.wrapper {
     height: 90vh;
     display: flex;
-    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
-    flex: 0 0 270;
     gap: 20px;
+    align-items: start;
+}
+
+.scroll-card {
+    overflow: scroll;
+    max-height: 600px;
 }
 
 .small-card {
@@ -139,6 +146,7 @@ button {
 .nav-icon {
     width: 10px;
     height: 10px;
+    margin: 5px;
 }
 
 .person-img {
@@ -153,8 +161,10 @@ button {
 
 .iconleft {
     display: flex;
-    justify-content: left;
     align-items: center;
+    color: gray;
+    padding: 5px;
+    float: left;
 }
 
 .imgright {
@@ -168,6 +178,7 @@ button {
     padding: 2px;
     margin: 2px;
     border-radius: 2px;
+    color: white;
 }
 
 .newdate {

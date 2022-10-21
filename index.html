@@ -24,6 +24,7 @@
     />
     <meta property="og:url" content="http://qaghjkl.surge.sh/ " />
     <meta name="twitter:card" content="summary_large_image" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -32,26 +33,26 @@
         <!-- lefthead -->
         <nav class="headleft">
             <!-- board icon -->
-            <span>Boards</span>
+            <span><div style="background-color: orange">Boards</div></span>
             <!-- search bar -->
-            <span>Search</span>
+            <span><div style="background-color: orange"><i class="fa-solid fa-magnifying-glass"></i></div></span>
         </nav>
       <!-- title  -->
         <nav class="headmid">
-          <span>Trello</span>
+          <span><img src="./images/trello.png" alt="logo" width="100"></span>
         </nav>
       <!-- right head  -->
         <nav class="headright">
             <!-- Plus icon -->
-            <span>More</span>
+            <span><i class="fa-solid fa-plus"></i></span>
             <!-- Image and name -->
             <span>Channelle</span>
             <!-- info icon -->
-            <span>Info</span>
+            <span><i class="fa-solid fa-circle-info"></i></span>
             <!-- bell icon -->
-            <span>Noti</span>
+            <span><i class="fa-regular fa-bell"></i></span>
             <!-- setting icon -->
-            <span>Setting</span>
+            <span><i class="fa-solid fa-gear"></i></span>
         </nav>
       <!-- end of right head -->
     <!-- End of header  -->
@@ -63,109 +64,116 @@
     <!-- Left side -->
         <nav class="company-overview">
             <!-- Company Overview -->
-            <span>Company Overview</span>
+            <span><b>
+                <i class="fa-solid fa-plane"></i>
+                Company Overview</b></span>
+            <span><i class="fa-solid fa-briefcase"></i></span>
             <!-- Travidux -->
             <span>Travidux</span>
             <!-- Star icon -->
-            <span>*</span>
+            <span><i class="fa-regular fa-star"></i></span>
             <!-- Team visible -->
             <span>Team Visible</span>
         </nav>
         <!-- Right side -->
         <nav class="join-me">
             <!-- join.me -->
-            <span>Join.me</span>
+            <span><i class="fa-regular fa-comments"></i>></span>
+            <span><u>join.me</u></span>
             <!-- dot  -->
-            <span>...</span>
+            <span><i class="fa-solid fa-ellipsis"></i></span>
             <!-- show menu icon -->
-            <span>Show Menu</span>
+            <span><u>Show Menu</u></span>
         </nav>
     </div>
 
     
-    <!-- Grid -->
-    <section class="grid">
+    <!-- Main screen -->
+    <section class="wrapper">
         <!-- First column -->
         <div class="card">
             <!-- heading -->
             <div class="cardhead"><h2>Teams</h2>
             <button>...</button></div>
             
-            <!-- product -->
-            <div class="small-card">
-                <div class="colorgrid">
-                    <div class ="colorbox" style="background-color: green"></div>
-                    <div class ="colorbox" style="background-color: yellow"></div>
-                    <div class ="colorbox" style="background-color: orange"></div>
-                    <div class ="colorbox" style="background-color: red"></div>
-                    <div class ="colorbox" style="background-color: purple"></div>
-                    <div class ="colorbox" style="background-color: blue"></div>
-                    <div class ="colorbox" style="background-color: lightblue"></div>
-                    <div class ="colorbox" style="background-color: lightgreen"></div>
-                    <div class ="colorbox" style="background-color: pink"></div>
-                    <div class ="colorbox" style="background-color: gray"></div>
+            <div class="scroll-card">
+                <!-- product -->
+                <div class="small-card">
+                    <div class="colorgrid">
+                        <div class ="colorbox" style="background-color: green"></div>
+                        <div class ="colorbox" style="background-color: yellow"></div>
+                        <div class ="colorbox" style="background-color: orange"></div>
+                        <div class ="colorbox" style="background-color: red"></div>
+                        <div class ="colorbox" style="background-color: purple"></div>
+                        <div class ="colorbox" style="background-color: blue"></div>
+                        <div class ="colorbox" style="background-color: lightblue"></div>
+                        <div class ="colorbox" style="background-color: lightgreen"></div>
+                        <div class ="colorbox" style="background-color: pink"></div>
+                        <div class ="colorbox" style="background-color: gray"></div>
+                    </div>
+                    <p>How to use this board</p>
+                    <div class="imgflex">
+                        <img class="nav-icon" src="http://cdn.onlinewebfonts.com/svg/img_520301.png" alt="navbaricon">
+                    </div>
                 </div>
-                <p>How to use this board</p>
-                <div class="imgflex">
-                    <img class="nav-icon" src="http://cdn.onlinewebfonts.com/svg/img_520301.png" alt="navbaricon">
-                </div>
-            </div>
 
-            <div class="small-card">
-                <div class="colorgrid">
-                    <div class ="colorbox" style="background-color: green"></div>
+                <div class="small-card">
+                    <div class="colorgrid">
+                        <div class ="colorbox" style="background-color: green"></div>
+                    </div>
+                    <p>Marketing</p>
+                    <div class="imgflex">
+                        <img class="nav-icon" src="http://cdn.onlinewebfonts.com/svg/img_520301.png" alt="navbaricon">
+                        <img class="person-img" src="https://thispersondoesnotexist.com/image" alt="person1">
+                    </div>
                 </div>
-                <p>Marketing</p>
-                <div class="imgflex">
-                    <img class="nav-icon" src="http://cdn.onlinewebfonts.com/svg/img_520301.png" alt="navbaricon">
-                    <img class="person-img" src="https://thispersondoesnotexist.com/image" alt="person1">
+        
+                <div class="small-card">
+                    <div class="colorgrid">
+                        <div class ="colorbox" style="background-color: yellow"></div>
+                    </div>
+                    <p>Product</p>
+                    <div class="imgflex">
+                        <img class="nav-icon" src="http://cdn.onlinewebfonts.com/svg/img_520301.png" alt="navbaricon">
+                        <img class="person-img" src="https://thispersondoesnotexist.com/image" alt="person1">
+                    </div>
                 </div>
-            </div>
-    
-            <div class="small-card">
-                <div class="colorgrid">
-                    <div class ="colorbox" style="background-color: yellow"></div>
-                </div>
-                <p>Product</p>
-                <div class="imgflex">
-                    <img class="nav-icon" src="http://cdn.onlinewebfonts.com/svg/img_520301.png" alt="navbaricon">
-                    <img class="person-img" src="https://thispersondoesnotexist.com/image" alt="person1">
-                </div>
-            </div>
 
-            <div class="small-card">
-                <div class="colorgrid">
-                    <div class ="colorbox" style="background-color: orange"></div>
+                <div class="small-card">
+                    <div class="colorgrid">
+                        <div class ="colorbox" style="background-color: orange"></div>
+                    </div>
+                    <p>Support</p>
+                    <div class="imgflex">
+                        <img class="nav-icon" src="http://cdn.onlinewebfonts.com/svg/img_520301.png" alt="navbaricon">
+                        <img class="person-img" src="https://thispersondoesnotexist.com/image" alt="person1">
+                    </div>
                 </div>
-                <p>Support</p>
-                <div class="imgflex">
-                    <img class="nav-icon" src="http://cdn.onlinewebfonts.com/svg/img_520301.png" alt="navbaricon">
-                    <img class="person-img" src="https://thispersondoesnotexist.com/image" alt="person1">
-                </div>
-            </div>
 
-            <div class="small-card">
-                <div class="colorgrid">
-                    <div class ="colorbox" style="background-color: purple"></div>
+                <div class="small-card">
+                    <div class="colorgrid">
+                        <div class ="colorbox" style="background-color: purple"></div>
+                    </div>
+                    <p>People</p>
+                    <div class="imgflex">
+                        <img class="nav-icon" src="http://cdn.onlinewebfonts.com/svg/img_520301.png" alt="navbaricon">
+                        <img class="person-img" src="https://thispersondoesnotexist.com/image" alt="person1">
+                    </div>
                 </div>
-                <p>People</p>
-                <div class="imgflex">
-                    <img class="nav-icon" src="http://cdn.onlinewebfonts.com/svg/img_520301.png" alt="navbaricon">
-                    <img class="person-img" src="https://thispersondoesnotexist.com/image" alt="person1">
-                </div>
-            </div>
 
-            <div class="small-card">
-                <div class="colorgrid">
-                    <div class ="colorbox" style="background-color: blue"></div>
+                <div class="small-card">
+                    <div class="colorgrid">
+                        <div class ="colorbox" style="background-color: blue"></div>
+                    </div>
+                    <p>IT</p>
+                    <div class="imgflex">
+                        <img class="nav-icon" src="http://cdn.onlinewebfonts.com/svg/img_520301.png" alt="navbaricon">
+                        <img class="person-img" src="https://thispersondoesnotexist.com/image" alt="person1">
+                    </div>
                 </div>
-                <p>IT</p>
-                <div class="imgflex">
-                    <img class="nav-icon" src="http://cdn.onlinewebfonts.com/svg/img_520301.png" alt="navbaricon">
-                    <img class="person-img" src="https://thispersondoesnotexist.com/image" alt="person1">
-                </div>
-            </div>
 
+            </div>
+            
             <div class="cardbot">
                 <p>Add a card..</p>
             </div>
@@ -180,45 +188,52 @@
             <div class="cardhead"><h2>Priorities</h2>
                 <button>...</button></div>
 
-            <div class="small-card">
-                <div class="colorgrid">
-                    <div class ="colorbox" style="background-color: orange"></div>
+            <div class="scroll-card">
+
+                <div class="small-card">
+                    <div class="colorgrid">
+                        <div class ="colorbox" style="background-color: orange"></div>
+                    </div>
+                    <p>Increase sales revenue by 30% in Q3</p>
+                    <div class="imgflex">
+                        <div class="iconleft">
+                            <img class="nav-icon" src="http://cdn.onlinewebfonts.com/svg/img_520301.png" alt="navbaricon">
+                            <div class ="newdate">
+                                <i class="fa-regular fa-clock"></i>
+                                Sep 30</div>
+                        </div>
+                        <div class="imgright">
+                        </div>
+                    </div>
                 </div>
-                <p>Increase sales revenue by 30% in Q3</p>
-                <div class="imgflex">
+                
+                <div class="small-card">
+                    <div class="colorgrid">
+                        <div class ="colorbox" style="background-color: green"></div>
+                        <div class ="colorbox" style="background-color: yellow"></div>
+                    </div>
+                    <p>Launch first international expansion</p>
+                    <div class="imgflex">
+                        <div class="iconleft">
+                            <img class="nav-icon" src="http://cdn.onlinewebfonts.com/svg/img_520301.png" alt="navbaricon">
+                            <div class ="newdate">
+                                <i class="fa-regular fa-clock"></i>
+                                Jul 22</div>
+                        </div>
+                        <div class="imgright">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="small-card">
+                    <div class="colorgrid">
+                        <div class ="colorbox" style="background-color: yellow"></div>
+                        <div class ="colorbox" style="background-color: orange"></div>
+                    </div>
+                    Test new messaging for SMB market
                     <div class="iconleft">
                         <img class="nav-icon" src="http://cdn.onlinewebfonts.com/svg/img_520301.png" alt="navbaricon">
-                        <div class ="newdate">Sep 30</div>
                     </div>
-                    <div class="imgright">
-                    </div>
-                </div>
-            </div>
-            
-            <div class="small-card">
-                <div class="colorgrid">
-                    <div class ="colorbox" style="background-color: green"></div>
-                    <div class ="colorbox" style="background-color: yellow"></div>
-                </div>
-                <p>Launch first international expansion</p>
-                <div class="imgflex">
-                    <div class="iconleft">
-                        <img class="nav-icon" src="http://cdn.onlinewebfonts.com/svg/img_520301.png" alt="navbaricon">
-                        <div class ="newdate">Jul 22</div>
-                    </div>
-                    <div class="imgright">
-                    </div>
-                </div>
-            </div>
-            
-            <div class="small-card">
-                <div class="colorgrid">
-                    <div class ="colorbox" style="background-color: yellow"></div>
-                    <div class ="colorbox" style="background-color: orange"></div>
-                </div>
-                <p>Test new messaging for SMB market</p>
-                <div class="iconleft">
-                    <img class="nav-icon" src="http://cdn.onlinewebfonts.com/svg/img_520301.png" alt="navbaricon">
                 </div>
             </div>
             
@@ -227,97 +242,128 @@
             </div>
 
         </div>
+
         <!-- 3rd column -->
         <div class="card">
             <!-- heading -->
             <div class="cardhead"><h2>Current Projects</h2>
                 <button>...</button></div>
-                
-            <div class="small-card">
-                <div class="colorgrid">
-                    <div class ="colorbox" style="background-color: yellow"></div>
-                    <div class ="colorbox" style="background-color: blue"></div>
-                    <div class ="colorbox" style="background-color: green"></div>
-                </div>
-                <p>Website Redesign</p>
-                <div class="iconleft">
-                    <img class="nav-icon" src="http://cdn.onlinewebfonts.com/svg/img_520301.png" alt="navbaricon">
-                    <p>Chat 2</p>
-                    <p>Pin 2</p>
-                    <p>Vote 4/5</p>
-                </div>
-                <div class="imgright">
-                    <img class="person-img" src="https://thispersondoesnotexist.com/image" alt="person1">
-                    <img class="person-img" src="https://thispersondoesnotexist.com/image" alt="person1">
-                    <img class="person-img" src="https://thispersondoesnotexist.com/image" alt="person1">
-                </div>
-            </div>
-            
-            <div class="small-card">
-                <div class="colorgrid">
-                    <div class ="colorbox" style="background-color: green"></div>
-                    <div class ="colorbox" style="background-color: yellow"></div>
-                </div>
-                <p>Ship iOS app</p>
-                <div class="iconleft">
-                    <img class="nav-icon" src="http://cdn.onlinewebfonts.com/svg/img_520301.png" alt="navbaricon">
-                    <p>Chat 1</p>
-                    <div class ="newdate">Aug 1</div>
-                </div>
-                <div class="imgright">
-                    <img class="person-img" src="https://thispersondoesnotexist.com/image" alt="person1">
-                    <img class="person-img" src="https://thispersondoesnotexist.com/image" alt="person1">
-                </div>
-            </div>
-            
-            <div class="small-card">
-                <div class="colorgrid">
-                    <div class ="colorbox" style="background-color: yellow"></div>
-                </div>
-                <p>Analytics Data</p>
-                <div class="iconleft">
-                    <img class="nav-icon" src="http://cdn.onlinewebfonts.com/svg/img_520301.png" alt="navbaricon">
-                    <div class ="newdate">Jul 13</div>
-                </div>
-                <div class="imgright">
-                    <img class="person-img" src="https://thispersondoesnotexist.com/image" alt="person1">
-                </div>
-            </div>
-            
-            <div class="small-card">
-                <div class="colorgrid">
-                    <div class ="colorbox" style="background-color: yellow"></div>
-                </div>
-                <p>Increase conversion rate by 20% by Q3</p>
-                <div class="iconleft">
-                    <img class="nav-icon" src="http://cdn.onlinewebfonts.com/svg/img_520301.png" alt="navbaricon">
-                    <div class ="newdate">Sep 30</div>
-                </div>
-                <div class="imgright">
-                    <img class="person-img" src="https://thispersondoesnotexist.com/image" alt="person1">
-                </div>
-            </div>
-            
-            <div class="small-card">
-                <div class="colorgrid">
-                    <div class ="colorbox" style="background-color: blue"></div>
-                </div>
-                <p>Develop Engineering Blog</p>
-            </div>
-            
-            <div class="small-card">
-                <p>Brand Guidelines</p>
-                <div class="iconleft">
-                    <img class="nav-icon" src="http://cdn.onlinewebfonts.com/svg/img_520301.png" alt="navbaricon">
-                    <div class ="newdate">Aug 19</div>
-                </div>
-                <div class="imgright">
-                    <img class="person-img" src="https://thispersondoesnotexist.com/image" alt="person1">
-                </div>
 
-                <div class="cardbot">
-                    <p>Add a card..</p>
+            <div class="scroll-card">
+                
+                <div class="small-card">
+                    <div class="colorgrid">
+                        <div class ="colorbox" style="background-color: yellow"></div>
+                        <div class ="colorbox" style="background-color: blue"></div>
+                        <div class ="colorbox" style="background-color: green"></div>
+                    </div>
+                    <p>Website Redesign</p>
+                    <div class="iconleft">
+                        <img class="nav-icon" src="http://cdn.onlinewebfonts.com/svg/img_520301.png" alt="navbaricon">
+                        <i class="fa-regular fa-comment"></i>
+                        2
+                        <i class="fa-solid fa-paperclip"></i> 
+                        2
+                        <i class="fa-regular fa-square-check"></i>
+                        4/5
+                    </div>
+                    <div class="imgright">
+                        <img class="person-img" src="https://thispersondoesnotexist.com/image" alt="person1">
+                        <img class="person-img" src="https://thispersondoesnotexist.com/image" alt="person1">
+                        <img class="person-img" src="https://thispersondoesnotexist.com/image" alt="person1">
+                    </div>
                 </div>
+                
+                <div class="small-card">
+                    <div class="colorgrid">
+                        <div class ="colorbox" style="background-color: green"></div>
+                        <div class ="colorbox" style="background-color: yellow"></div>
+                    </div>
+                    <p>Ship iOS app</p>
+                    <div class="iconleft">
+                        <img class="nav-icon" src="http://cdn.onlinewebfonts.com/svg/img_520301.png" alt="navbaricon">
+                        <i class="fa-regular fa-comment"></i>
+                        1
+                        <div class ="newdate">
+                            <i class="fa-regular fa-clock"></i>
+                            Aug 1
+                        </div>
+                    </div>
+                    <div class="imgright">
+                        <img class="person-img" src="https://thispersondoesnotexist.com/image" alt="person1">
+                        <img class="person-img" src="https://thispersondoesnotexist.com/image" alt="person1">
+                    </div>
+                </div>
+                
+                <div class="small-card">
+                    <div class="colorgrid">
+                        <div class ="colorbox" style="background-color: yellow"></div>
+                    </div>
+                    <p>Analytics Data</p>
+                    <div class="iconleft">
+                        <img class="nav-icon" src="http://cdn.onlinewebfonts.com/svg/img_520301.png" alt="navbaricon">
+                        <div class ="newdate">
+                            <i class="fa-regular fa-clock"></i>
+                            Jul 13</div>
+                    </div>
+                    <div class="imgright">
+                        <img class="person-img" src="https://thispersondoesnotexist.com/image" alt="person1">
+                    </div>
+                </div>
+                
+                <div class="small-card">
+                    <div class="colorgrid">
+                        <div class ="colorbox" style="background-color: yellow"></div>
+                    </div>
+                    <p>Increase conversion rate by 20% by Q3</p>
+                    <div class="iconleft">
+                        <img class="nav-icon" src="http://cdn.onlinewebfonts.com/svg/img_520301.png" alt="navbaricon">
+                        <div class ="newdate">
+                            <i class="fa-regular fa-clock"></i>
+                            Sep 30</div>
+                    </div>
+                    <div class="imgright">
+                        <img class="person-img" src="https://thispersondoesnotexist.com/image" alt="person1">
+                    </div>
+                </div>
+                
+                <div class="small-card">
+                    <div class="colorgrid">
+                        <div class ="colorbox" style="background-color: blue"></div>
+                    </div>
+                    <p>Develop Engineering Blog</p>
+                    <div class="iconleft">
+                        <img class="nav-icon" src="http://cdn.onlinewebfonts.com/svg/img_520301.png" alt="navbaricon">
+                        <div class ="newdate">
+                            <i class="fa-regular fa-clock"></i>
+                            Aug 19</div>
+                    </div>
+                    <div class="imgright">
+                        <img class="person-img" src="https://thispersondoesnotexist.com/image" alt="person1">
+                    </div>
+                </div>
+                
+                <div class="small-card">
+                    <div class="colorgrid">
+                        <div class ="colorbox" style="background-color: green"></div>
+                        <div class ="colorbox" style="background-color: yellow"></div>
+                    </div>
+                    <p>Brand Guidelines</p>
+                    <div class="iconleft">
+                        <img class="nav-icon" src="http://cdn.onlinewebfonts.com/svg/img_520301.png" alt="navbaricon">
+                        <div class ="newdate">
+                            <i class="fa-regular fa-clock"></i>
+                            Jul 18</div>
+                    </div>
+                    <div class="imgright">
+                        <img class="person-img" src="https://thispersondoesnotexist.com/image" alt="person1">
+                    </div>
+                </div>
+            </div>
+                
+            <div class="cardbot">
+                <p>Add a card..</p>
+            </div>
 
             </div>
             
@@ -328,31 +374,37 @@
             <div class="cardhead"><h2>Completed Projects</h2>
                 <button>...</button></div>
             
-            <div class="small-card">
-                <div class="colorgrid">
-                    <div class ="colorbox" style="background-color: yellow"></div>
+            <div class="scroll-card">
+                <div class="small-card">
+                    <div class="colorgrid">
+                        <div class ="colorbox" style="background-color: yellow"></div>
+                    </div>
+                    <p>Social Media Campaign</p>
+                    <div class="iconleft">
+                        <img class="nav-icon" src="http://cdn.onlinewebfonts.com/svg/img_520301.png" alt="navbaricon">
+                        <div class ="olddate">
+                            <i class="fa-regular fa-clock"></i>
+                            Mar 13</div>
+                    </div>
+                    <div class="imgright">
+                        <img class="person-img" src="https://thispersondoesnotexist.com/image" alt="person1">
+                    </div>
                 </div>
-                <p>Social Media Campaign</p>
-                <div class="iconleft">
-                    <img class="nav-icon" src="http://cdn.onlinewebfonts.com/svg/img_520301.png" alt="navbaricon">
-                    <div class ="olddate">Mar 13</div>
-                </div>
-                <div class="imgright">
-                    <img class="person-img" src="https://thispersondoesnotexist.com/image" alt="person1">
-                </div>
-            </div>
-            
-            <div class="small-card">
-                <div class="colorgrid">
-                    <div class ="colorbox" style="background-color: red"></div>
-                </div>
-                <p>Update Help Documentation</p>
-                <div class="iconleft">
-                    <img class="nav-icon" src="http://cdn.onlinewebfonts.com/svg/img_520301.png" alt="navbaricon">
-                    <div class ="olddate">May 17</div>
-                </div>
-                <div class="imgright">
-                    <img class="person-img" src="https://thispersondoesnotexist.com/image" alt="person1">
+                
+                <div class="small-card">
+                    <div class="colorgrid">
+                        <div class ="colorbox" style="background-color: red"></div>
+                    </div>
+                    <p>Update Help Documentation</p>
+                    <div class="iconleft">
+                        <img class="nav-icon" src="http://cdn.onlinewebfonts.com/svg/img_520301.png" alt="navbaricon">
+                        <div class ="olddate">
+                            <i class="fa-regular fa-clock"></i>
+                            May 17</div>
+                    </div>
+                    <div class="imgright">
+                        <img class="person-img" src="https://thispersondoesnotexist.com/image" alt="person1">
+                    </div>
                 </div>
             </div>
 
