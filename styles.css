@@ -10,8 +10,8 @@ body {
     background-attachment: fixed;
     background-position: center;
     color: black;
-    margin: 0 5px 5px 5px;
-    width: screen;
+    margin: 0 5px;
+    width: 100vw;
 }
 
 h2 {
@@ -36,14 +36,16 @@ img {
     margin: 2px;
 }
 
-/* .headleft { */
-    /* display: flex;
-    justify-content: left;
+.headleft {
+    display: flex; 
+    
+    /* justify-content: left;
     padding: 2rem; 
     display: flex;
     grid-gap: 10px;
-    justify-content: space-between; */
-    /* float: left; */
+    justify-content: space-between;
+    float: left;  */
+}
 
 
 /* 
@@ -51,13 +53,14 @@ img {
     display: flex;
     justify-content: space-around;
     margin: 0 20rem;
-}
+}*/
 
 .headright {
-    display: flex;
+    margin-right: 10px;
+    /* display: flex; 
     /* justify-content: right;
-    grid-gap: 10px;
-}  */
+    grid-gap: 10px;*/
+}  
 
 
 #top {
@@ -69,6 +72,11 @@ img {
     align-items: center;
     background-color: darkorange;
 }
+
+#top > * {
+    margin: 10px;
+}
+
 /* .company-overview {
     display: flex;
     justify-content: start;
@@ -100,7 +108,7 @@ img {
     display: flex;
     justify-content: space-between;
     height: 30px;
-    width: 270px;
+    width: 250px;
 }
 
 .cardbot {
@@ -164,7 +172,6 @@ img {
     align-items: center;
     color: gray;
     padding: 5px;
-    float: left;
 }
 
 .imgright {
@@ -184,4 +191,8 @@ img {
 .newdate {
     padding: 5px;
     margin: 2px;
+}
+
+.iconleft > * {
+    margin-right: 5px;
 }
