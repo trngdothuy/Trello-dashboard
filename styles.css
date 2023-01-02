@@ -1,10 +1,14 @@
+* {
+    font-family: var(--font-family-text,"Charlie Text",sans-serif);
+}
+
 body {
     /* display: flex; */
     /* justify-content: center;
     align-items: center;
     height: 100vh; */
     /* background-image: url(./images/bcn.jpg); */
-    background-color: orange;
+    background-color: #ff9f1a;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -12,6 +16,7 @@ body {
     color: black;
     margin: 0 5px;
     width: 100vw;
+    height: 1vh;
 }
 
 h2 {
@@ -37,14 +42,11 @@ img {
 }
 
 .headleft {
-    display: flex; 
-    
-    /* justify-content: left;
-    padding: 2rem; 
+    border-radius: 50px;
+    padding: 7px;
+    background-color: orange;
     display: flex;
-    grid-gap: 10px;
-    justify-content: space-between;
-    float: left;  */
+    gap: 2px;
 }
 
 
@@ -56,10 +58,8 @@ img {
 }*/
 
 .headright {
-    margin-right: 10px;
-    /* display: flex; 
-    /* justify-content: right;
-    grid-gap: 10px;*/
+    display: flex;
+    gap: 5px;
 }  
 
 
@@ -67,26 +67,33 @@ img {
     position: sticky;
     display: flex;
     justify-content: space-between;
-    height: 5vh;
+    /* height: 5vh; */
     color: white;
     align-items: center;
     background-color: darkorange;
 }
 
+@media only screen and (max-width: 1064px) {
+    #top {
+        width: 1064px;
+    }
+  }
+
 #top > * {
     margin: 10px;
 }
 
-/* .company-overview {
+.company-overview {
     display: flex;
-    justify-content: start;
-    grid-gap: 10px;
-} */
+    gap: 5px;
+    margin-left: 5px;
+}
 
 .join-me {
     display: flex;
     justify-content: flex-end;
     grid-gap: 10px;
+    margin-right: 5px;
 }
 
 .firstrow {
@@ -98,7 +105,7 @@ img {
 }
 
 .card {
-    background-color: rgb(211, 205, 205);
+    background-color: #c4c9cc;
     max-height: 670px;
     align-items: start;
     border-radius: 10px;
@@ -123,6 +130,8 @@ img {
     display: flex;
     gap: 20px;
     align-items: start;
+    margin-left: 6px;
+    margin-right: 4px;
 }
 
 .scroll-card {
@@ -135,7 +144,8 @@ img {
     border-radius: 5px;
     background-color: white;
     padding: 5px;
-    margin: 5px;
+    margin: 10px;
+    width: 270px;
 }
 
 .colorbox {
@@ -158,6 +168,7 @@ img {
 }
 
 .person-img {
+    border-radius: 50px;
     width: 30px;
     height: 30px;
 }
@@ -172,6 +183,8 @@ img {
     align-items: center;
     color: gray;
     padding: 5px;
+    justify-content: center;
+    gap: 2px;
 }
 
 .imgright {
